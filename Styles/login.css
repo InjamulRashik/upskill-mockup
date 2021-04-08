@@ -75,7 +75,8 @@ body {
   margin-right: 258px;
 }
 .login-img h1 {
-  padding: 219px 224px 0px 224px;
+  text-align: center;
+  padding: 219px 0px 0px 0px;
   font: normal normal bold 40px/50px Open Sans;
   letter-spacing: -2px;
   color: #ffffff;
