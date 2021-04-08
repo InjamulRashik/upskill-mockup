@@ -228,3 +228,6 @@ body {
   color: #728391;
   width: 20px;
 }
+#workshop-button {
+  cursor: pointer;
+}
