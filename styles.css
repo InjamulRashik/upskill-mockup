@@ -3,9 +3,66 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+body {
+  background-color: #f8f8f9;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+}
+.navbar img {
+  padding-left: 10px;
+  margin-right: 639px;
+}
+.nav-links {
+  display: flex;
+}
+.nav-links p {
+  padding-right: 40px;
+  text-transform: uppercase;
+  font: normal normal bold 12px/15px Montserrat;
+  font-weight: bold;
+}
+.nav-links p span {
+  color: #0062ff;
+}
+.user-group {
+  display: flex;
+  align-items: center;
+}
+.sign-in-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #0062ff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 54px;
+  margin-left: 220px;
+  font: normal normal bold 12px/15px Montserrat;
+}
+.sign-in-group i {
+  padding-right: 10px;
+}
+.sign-up-group {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background: #60d91a 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #60d91a4d;
+  border-radius: 4px;
+  padding: 15px 19px;
+  font: normal normal bold 12px/15px Montserrat;
+}
 .main-content {
   display: flex;
   flex-direction: row;
+  margin-top: 34px;
+  margin-left: 170px;
+  margin-right: 170px;
+  background: #f8f8f9 0% 0% no-repeat padding-box;
 }
 .dashboard {
   background-color: #0b2a5a;
@@ -97,8 +154,8 @@
   width: 320px;
   margin-right: 65px;
   margin-top: 50px;
-  padding: 11px 0px;
-  font: normal normal normal 14px/40px;
+  /* padding: 11px 0px; */
+  font: normal normal normal 14px/40px Montserrat;
   color: #728391;
 }
 .timeline-content-first {
@@ -110,8 +167,8 @@
   width: 320px;
   margin-right: 65px;
   margin-top: 50px;
-  padding: 11px 0px;
-  font: normal normal normal 14px/40px;
+  /* padding: 11px 0px; */
+  font: normal normal normal 14px/40px Montserrat;
   color: #ffffff;
 }
 .workshop {
@@ -165,6 +222,7 @@
   letter-spacing: 2.8px;
   color: #0062ff;
   text-transform: uppercase;
+  font: normal normal bold 14px/29px Montserrat;
 }
 .social-media-icon i {
   color: #728391;
