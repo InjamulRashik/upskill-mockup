@@ -101,7 +101,6 @@ body {
   color: #00f241;
   opacity: 1;
 }
-
 .login-info {
   text-align: center;
   padding-top: 110px;
@@ -156,7 +155,6 @@ input {
 .fb-icon {
   margin-right: 20px;
 }
-
 .bottom-text {
   font: normal normal normal 14px/24px Open Sans;
   letter-spacing: -0.14px;

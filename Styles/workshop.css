@@ -44,6 +44,7 @@ body {
   padding-right: 54px;
   margin-left: 220px;
   font: normal normal bold 12px/15px Montserrat;
+  cursor: pointer;
 }
 .sign-in-group i {
   padding-right: 10px;
@@ -57,6 +58,7 @@ body {
   border-radius: 4px;
   padding: 15px 19px;
   font: normal normal bold 12px/15px Montserrat;
+  cursor: pointer;
 }
 .main-content {
   display: flex;
@@ -185,4 +187,7 @@ body {
   color: #728391;
   opacity: 1;
   padding-left: 13px;
+}
+#profile-btn {
+  cursor: pointer;
 }

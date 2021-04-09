@@ -34,11 +34,11 @@
           <p>earn with upskill</p>
         </div>
         <div class="user-group">
-          <div class="sign-in-group">
+          <div id="sign-in-btn" class="sign-in-group">
             <i class="fas fa-user-circle fa-3x"></i>
             <p>sign in</p>
           </div>
-          <div class="sign-up-group">Sign up</div>
+          <div id="sign-in-btn2" class="sign-up-group">Sign up</div>
         </div>
       </div>
       <div class="main-content">
@@ -75,7 +75,7 @@
                 My Workshop
               </div>
               <br />
-              <div class="dashboard-content-flex">
+              <div id="profile-btn" class="dashboard-content-flex">
                 <img src="../Assets/user@2x.png" width="30" alt="" />
                 Edit Profile
               </div>
@@ -144,6 +144,15 @@
     <script>
       document.getElementById("dashboard-button").onclick = function () {
         location.href = "../index.html";
+      };
+      document.getElementById("sign-in-btn").onclick = function () {
+        location.href = "./login.html";
+      };
+      document.getElementById("sign-in-btn2").onclick = function () {
+        location.href = "./login.html";
+      };
+      document.getElementById("profile-btn").onclick = function () {
+        location.href = "./profile.html";
       };
     </script>
   </body>

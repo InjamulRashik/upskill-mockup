@@ -44,6 +44,7 @@ body {
   padding-right: 54px;
   margin-left: 220px;
   font: normal normal bold 12px/15px Montserrat;
+  cursor: pointer;
 }
 .sign-in-group i {
   padding-right: 10px;
@@ -57,6 +58,7 @@ body {
   border-radius: 4px;
   padding: 15px 19px;
   font: normal normal bold 12px/15px Montserrat;
+  cursor: pointer;
 }
 .main-content {
   display: flex;
@@ -68,10 +70,11 @@ body {
 }
 .dashboard {
   background-color: #0b2a5a;
-  width: 290px;
+  padding: 0px 8px 0px 0px;
 }
 
 .profile-info {
+  padding-left: 8px;
   text-align: center;
   color: white;
   opacity: 1;
@@ -232,5 +235,8 @@ body {
   width: 20px;
 }
 #workshop-button {
+  cursor: pointer;
+}
+#profile-btn {
   cursor: pointer;
 }
