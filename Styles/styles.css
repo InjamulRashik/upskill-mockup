@@ -243,3 +243,12 @@ body {
 #msg-btn {
   cursor: pointer;
 }
+.notification {
+  position: absolute;
+  background: #df0000;
+  color: white;
+  padding: 1px 6px 2px 7px;
+  border-radius: 50%;
+  top: 932px;
+  left: 355px;
+}
