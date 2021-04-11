@@ -223,5 +223,112 @@ body {
   margin-left: 10px;
   width: 515px;
   background: #ffffff 0% 0% no-repeat padding-box;
-  height: 710px;
+  display: flex;
+  flex-direction: column;
+}
+.msg-incoming {
+  margin-top: 25px;
+  margin-left: 30px;
+  float: left;
+  width: 350px;
+  background: #728391 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0b2a5a1a;
+  opacity: 1;
+  padding: 11px 20px 11px 30px;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 5px 0px;
+}
+.msg-incoming::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 127px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid #728391;
+}
+.msg-incoming-2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 482px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid #728391;
+}
+.msg-outgoing {
+  margin-left: 85px;
+  /* margin-right: 30px; */
+  margin-top: 26px;
+  margin-bottom: 10px;
+  width: 350px;
+  background: #60d91a 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0b2a5a1a;
+  opacity: 1;
+  padding: 11px 20px 11px 30px;
+  border-radius: 5px 5px 0px 5px;
+  position: relative;
+}
+.msg-outgoing::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: -15px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 15px solid #60d91a;
+}
+.top {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 258px;
+}
+.bottom {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 127px;
+}
+.msg-p {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.type-box input {
+  width: 490px;
+  height: 50px;
+  margin: 5px 10px 5px 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  border: none;
+  text-align: left;
+  font: normal normal normal 14px/29px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 28px;
+  /* padding: 14px 0px 17px 28px; */
+}
+.type-box {
+  display: flex;
+  flex-direction: row;
+}
+.fa-paper-plane {
+  margin-top: 15px;
+  margin-left: -65px;
+  color: #0062ff;
 }
