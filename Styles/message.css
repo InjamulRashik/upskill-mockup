@@ -153,33 +153,75 @@ body {
   border: none;
   margin: 25px 62px 25px 45px;
 }
-.user-group {
+.message-user-group {
   display: flex;
   flex-direction: column;
   width: 425px;
 }
-.user-group-each {
+.message-user-group-each {
   display: flex;
   align-items: center;
   width: 100%;
 }
-.first {
+.message-user-group-each-first {
+  display: flex;
+  align-items: center;
+  width: 100%;
   background: #0062ff 0% 0% no-repeat padding-box;
   opacity: 1;
+  color: #ffffff;
 }
-.user-group-each img {
+.message-user-group-each-first img {
   border-radius: 50%;
   margin: 19px 24px 21px 28px;
 }
-.user-group-each p {
+.message-user-group-each-first p {
   font: normal normal normal 14px Open Sans;
   letter-spacing: 0px;
   color: #ffffff;
 }
-.user-group-each h5 {
+.message-user-group-each-first h5 {
   font: normal normal bold 14px/24px Open Sans;
   letter-spacing: 0px;
   color: #ffffff;
 }
+.message-user-group-each img {
+  border-radius: 50%;
+  margin: 19px 24px 21px 28px;
+}
+.message-user-group-each p {
+  font: normal normal normal 14px Open Sans;
+  letter-spacing: 0px;
+  color: #9a9abe;
+}
+.message-user-group-each h5 {
+  font: normal normal bold 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #9a9abe;
+}
+.span {
+  position: absolute;
+  left: 1020px;
+  color: #0062ff;
+}
+.span-first {
+  color: #00f241;
+}
 .message-div {
+  width: 535px;
+  background: #d7dde8 0% 0% no-repeat padding-box;
+}
+.blue-bg {
+  position: absolute;
+  margin-top: 234px;
+  left: 1075px;
+  width: 495px;
+  border: 20px solid #0062ff;
+}
+.message-sub-div {
+  position: relative;
+  margin-left: 10px;
+  width: 515px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 710px;
 }
