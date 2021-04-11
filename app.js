@@ -10,3 +10,6 @@ document.getElementById("sign-in-btn2").onclick = function () {
 document.getElementById("profile-btn").onclick = function () {
   location.href = "./Pages/profile.html";
 };
+document.getElementById("msg-btn").onclick = function () {
+  location.href = "./Pages/message.html";
+};

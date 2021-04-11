@@ -332,3 +332,9 @@ body {
   margin-left: -65px;
   color: #0062ff;
 }
+#workshop-btn {
+  cursor: pointer;
+}
+#profile-btn {
+  cursor: pointer;
+}
