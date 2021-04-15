@@ -1,0 +1,846 @@
+/* Common CSS Starts from Here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #f8f8f9;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+}
+.navbar img {
+  padding-left: 140px;
+  margin-right: 639px;
+}
+.nav-links {
+  display: flex;
+  margin-left: -100px;
+}
+.nav-links a {
+  padding-right: 30px;
+  text-transform: uppercase;
+  font: normal normal bold 12px/15px Montserrat;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+.nav-links a span {
+  color: #0062ff;
+  text-decoration: none;
+}
+.user-group {
+  display: flex;
+  align-items: center;
+  padding-right: 140px;
+}
+.sign-in-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #0062ff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-right: 54px;
+  margin-left: 220px;
+  font: normal normal bold 12px/15px Montserrat;
+  cursor: pointer;
+}
+.sign-in-group i {
+  padding-right: 10px;
+}
+.sign-up-group {
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  background: #60d91a 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #60d91a4d;
+  border-radius: 4px;
+  padding: 15px 19px;
+  font: normal normal bold 12px/15px Montserrat;
+  cursor: pointer;
+}
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 34px;
+  margin-left: 310px;
+  margin-right: 310px;
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+}
+.dashboard {
+  background-color: #0b2a5a;
+  padding: 0px 8px 0px 0px;
+}
+
+.profile-info {
+  padding-left: 8px;
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+.profile-info p {
+  color: #9a9abe;
+  opacity: 1;
+  font: normal normal normal 14px/18px Open Sans;
+}
+.title {
+  margin-bottom: 2px;
+}
+.profile-info img {
+  margin: 50px 70px 46px 50px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  color: #9a9abe;
+  font: normal normal bold 14px/18px Open Sans;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+.dashboard-content img {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.dashboard-content-flex {
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+  cursor: pointer;
+}
+#dashboard-content-flex-first {
+  border-left: 5px solid #60d91a;
+  color: #60d91a;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+#dashboard-content-flex-first img {
+  margin-left: 23px;
+}
+
+/* FirstPage(Dashboard-Page) CSS Starts Here */
+
+.first-page-content {
+  padding-left: 50px;
+}
+.summary {
+  display: flex;
+  flex-direction: row;
+}
+.summary-content {
+  color: white;
+  background: #6b00bc 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 26px 20px 24px 20px;
+  width: 240px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+}
+
+#amount {
+  display: flex;
+  justify-content: space-between;
+  font: normal normal normal 32px/29px Open Sans;
+}
+.timeline {
+  display: flex;
+  flex-direction: row;
+}
+.timeline-content {
+  text-align: center;
+  background: #e8ecf1 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  width: 280px;
+  margin-right: 60px;
+  /* padding: 11px 0px; */
+  font: normal normal normal 14px/40px Montserrat;
+  color: #728391;
+}
+.timeline-content-first {
+  text-align: center;
+  background: #0062ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #0062ff4d;
+  border-radius: 20px;
+  opacity: 1;
+  width: 280px;
+  margin-right: 60px;
+  /* padding: 11px 0px; */
+  font: normal normal normal 14px/40px Montserrat;
+  color: #ffffff;
+}
+
+.workshop {
+  margin-top: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #01368619;
+  border-radius: 10px;
+  width: 960px;
+}
+.workshop-content {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 5px solid #f8f8f9;
+}
+.content-image {
+  padding-right: 50px;
+}
+.content-details h5 {
+  color: #728391;
+}
+.content-details h1 {
+  color: #1000a9;
+}
+.content-heading {
+  color: #1000a9;
+  font: normal normal normal 24px/30px Open Sans;
+  letter-spacing: -0.6px;
+  color: #1000a9;
+  text-transform: capitalize;
+}
+.content-timing {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #aaaabe;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.content-details-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.workshop-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 34px 0px 34px 0px;
+}
+.workshop-footer h4 {
+  letter-spacing: 2.8px;
+  color: #0062ff;
+  text-transform: uppercase;
+  font: normal normal bold 14px/29px Montserrat;
+}
+.social-media-icon i {
+  color: #728391;
+  width: 20px;
+}
+#workshop-button {
+  cursor: pointer;
+}
+#profile-btn {
+  cursor: pointer;
+}
+#msg-btn {
+  cursor: pointer;
+}
+.notification {
+  position: absolute;
+  background: #df0000;
+  color: white;
+  padding: 1px 6px 2px 7px;
+  border-radius: 50%;
+  top: 932px;
+  left: 355px;
+}
+
+/* SecondPage(Workshop-Page) CSS Starts Here */
+
+.second-page-content {
+  padding-left: 50px;
+}
+.timeline {
+  display: flex;
+  flex-direction: row;
+}
+.timeline-content {
+  text-align: center;
+  background: #e8ecf1 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  width: 280px;
+  margin-right: 60px;
+  /* padding: 11px 0px; */
+  font: normal normal normal 14px/40px Montserrat;
+  color: #728391;
+}
+.timeline-content-first {
+  text-align: center;
+  background: #0062ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px #0062ff4d;
+  border-radius: 20px;
+  opacity: 1;
+  width: 280px;
+  margin-right: 60px;
+  /* padding: 11px 0px; */
+  font: normal normal normal 14px/40px Montserrat;
+  color: #ffffff;
+}
+
+.courses {
+  padding-top: 30px;
+}
+.courses-row {
+  display: flex;
+}
+.course-content {
+  width: 300px;
+  height: 329px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #01368619;
+  border-radius: 10px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.course-content h4 {
+  font: normal normal bold 16px/20px Open Sans;
+  letter-spacing: -0.4px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  padding-left: 13px;
+}
+.course-content h5 {
+  font: normal normal normal 14px/39px Open Sans;
+  letter-spacing: -0.35px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 13px;
+}
+#profile-btn {
+  cursor: pointer;
+}
+#msg-btn {
+  cursor: pointer;
+}
+.notification {
+  position: absolute;
+  background: #df0000;
+  color: white;
+  padding: 1px 6px 2px 7px;
+  border-radius: 50%;
+  top: 932px;
+  left: 355px;
+}
+
+/* ThirdPage(Profile-Page) CSS Starts Here */
+
+.third-page-content {
+  padding-left: 50px;
+}
+.personal-info {
+  width: 960px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #01368619;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 18px Open Sans;
+  letter-spacing: -0.45px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  padding: 20px;
+}
+.personal-info h5 {
+  text-align: left;
+  font: normal normal bold 14px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.personal-info input {
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border: none;
+  padding: 16px 0px 15px 25px;
+  margin-right: 20px;
+  width: 445px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+#about-input {
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border: none;
+  padding: 16px 25px 15px 15px;
+  width: 918px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-align: center;
+  font: normal normal normal 14px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+}
+.contact-info {
+  width: 960px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #01368619;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 18px Open Sans;
+  letter-spacing: -0.45px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  padding: 20px;
+  margin-top: 30px;
+}
+.contact-info h5 {
+  text-align: left;
+  font: normal normal bold 14px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.contact-info input {
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border: none;
+  padding: 16px 0px 15px 25px;
+  margin-right: 20px;
+  width: 445px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.password-info {
+  width: 960px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #01368619;
+  border-radius: 10px;
+  opacity: 1;
+  text-align: left;
+  font: normal normal normal 18px Open Sans;
+  letter-spacing: -0.45px;
+  color: #000000;
+  text-transform: capitalize;
+  opacity: 1;
+  padding: 20px;
+  margin-top: 30px;
+}
+.password-info h5 {
+  text-align: left;
+  font: normal normal bold 14px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.password-info input {
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border: none;
+  padding: 16px 0px 15px 25px;
+  margin-right: 20px;
+  width: 445px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+#adress-input {
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border: none;
+  padding: 16px 25px 15px 15px;
+  width: 918px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  font: normal normal normal 14px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+}
+.save-btn {
+  width: 390px;
+  background: #0062ff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 14px Montserrat;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 17px 0px;
+  margin-left: 335px;
+}
+#workshop-btn {
+  cursor: pointer;
+}
+#msg-btn {
+  cursor: pointer;
+}
+.notification {
+  position: absolute;
+  background: #df0000;
+  color: white;
+  padding: 1px 6px 2px 7px;
+  border-radius: 50%;
+  top: 932px;
+  left: 355px;
+}
+
+/* FourthPage(Message-Page) CSS Starts Here */
+
+.fourth-page-content {
+  padding-left: 50px;
+}
+.chat-div {
+  display: flex;
+  flex-direction: row;
+}
+.user-div {
+  background: #1000a9 0% 0% no-repeat padding-box;
+  height: 770px;
+  width: 425px;
+}
+.user-div input {
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  padding: 10px 0px 12px 60px;
+  text-align: left;
+  font: normal normal normal 14px/29px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  width: 300px;
+  border: none;
+  margin: 25px 62px 25px 45px;
+}
+.message-user-group {
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+}
+.message-user-group-each {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.message-user-group-each-first {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #0062ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #ffffff;
+}
+.message-user-group-each-first img {
+  border-radius: 50%;
+  margin: 19px 24px 21px 28px;
+}
+.message-user-group-each-first p {
+  font: normal normal normal 14px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.message-user-group-each-first h5 {
+  font: normal normal bold 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+.message-user-group-each img {
+  border-radius: 50%;
+  margin: 19px 24px 21px 28px;
+}
+.message-user-group-each p {
+  font: normal normal normal 14px Open Sans;
+  letter-spacing: 0px;
+  color: #9a9abe;
+}
+.message-user-group-each h5 {
+  font: normal normal bold 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #9a9abe;
+}
+.span {
+  position: absolute;
+  left: 1020px;
+  color: #0062ff;
+}
+.span-first {
+  color: #00f241;
+}
+.message-div {
+  width: 535px;
+  background: #d7dde8 0% 0% no-repeat padding-box;
+}
+.blue-bg {
+  position: absolute;
+  margin-top: 234px;
+  left: 1075px;
+  width: 495px;
+  border: 20px solid #0062ff;
+}
+.message-sub-div {
+  position: relative;
+  margin-left: 10px;
+  width: 515px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-direction: column;
+}
+.msg-incoming {
+  margin-top: 25px;
+  margin-left: 30px;
+  float: left;
+  width: 350px;
+  background: #728391 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0b2a5a1a;
+  opacity: 1;
+  padding: 11px 20px 11px 30px;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 5px 0px;
+}
+.msg-incoming::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 127px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid #728391;
+}
+.msg-incoming-2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 482px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 15px solid #728391;
+}
+.msg-outgoing {
+  margin-left: 85px;
+  /* margin-right: 30px; */
+  margin-top: 26px;
+  margin-bottom: 10px;
+  width: 350px;
+  background: #60d91a 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0b2a5a1a;
+  opacity: 1;
+  padding: 11px 20px 11px 30px;
+  border-radius: 5px 5px 0px 5px;
+  position: relative;
+}
+.msg-outgoing::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: -15px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 15px solid #60d91a;
+}
+.top {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 258px;
+}
+.bottom {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 127px;
+}
+.msg-p {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.type-box input {
+  width: 490px;
+  height: 50px;
+  margin: 5px 10px 5px 10px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 25px;
+  opacity: 1;
+  border: none;
+  text-align: left;
+  font: normal normal normal 14px/29px Open Sans;
+  letter-spacing: 0px;
+  color: #728391;
+  opacity: 1;
+  padding-left: 28px;
+  /* padding: 14px 0px 17px 28px; */
+}
+.type-box {
+  display: flex;
+  flex-direction: row;
+}
+.fa-paper-plane {
+  margin-top: 15px;
+  margin-left: -65px;
+  color: #0062ff;
+}
+#workshop-btn {
+  cursor: pointer;
+}
+#profile-btn {
+  cursor: pointer;
+}
+.notification {
+  position: absolute;
+  background: #df0000;
+  color: white;
+  padding: 1px 6px 2px 7px;
+  border-radius: 50%;
+  top: 928px;
+  left: 354px;
+}
+.fa-search {
+  position: absolute;
+  color: #728391;
+  top: 132px;
+  left: 730px;
+}
+
+/* FifthPage(Login-Page) CSS Starts Here */
+
+.login-content {
+  display: flex;
+  flex-direction: row;
+  margin-top: 34px;
+  background: #f8f8f9 0% 0% no-repeat padding-box;
+}
+.login-img {
+  background-image: url("/Assets/daniel-olah-1Vt21LuLSug-unsplash@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 880px;
+  color: white;
+  text-align: center;
+  margin-right: 258px;
+}
+.login-img h1 {
+  text-align: center;
+  padding: 219px 0px 0px 0px;
+  font: normal normal bold 40px/50px Open Sans;
+  letter-spacing: -2px;
+  color: #ffffff;
+  opacity: 1;
+}
+.login-img p {
+  font: normal normal normal 14px/29px Open Sans;
+  letter-spacing: -0.14px;
+  color: #ffffff;
+  opacity: 1;
+}
+.second-p {
+  font: normal normal normal 14px/29px Open Sans;
+  letter-spacing: -0.14px;
+  color: #ffffff;
+  opacity: 1;
+  padding-top: 204px;
+}
+.mail {
+  font: normal normal bold 18px/29px Open Sans;
+  letter-spacing: -0.18px;
+  color: #00f241;
+  opacity: 1;
+}
+.login-info {
+  text-align: center;
+  padding-top: 110px;
+  margin-right: 258px;
+}
+.login-content h2 {
+  text-align: center;
+}
+input {
+  width: 445px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #9a9abe;
+  padding: 16px 0px 15px 25px;
+  margin-bottom: 20px;
+}
+.forgot {
+  display: flex;
+  justify-content: space-between;
+}
+.forgot-alt {
+  text-decoration: none;
+  font: normal normal normal 14px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #0062ff;
+  opacity: 1;
+}
+.forgot-alt-2 {
+  text-decoration: none;
+  font: normal normal normal 14px/22px Open Sans;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.sign-btn {
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: center;
+  background: #0062ff 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 17px 65px;
+  font: normal normal normal 14px/29px Montserrat;
+  letter-spacing: 2.8px;
+  color: #ffffff;
+}
+.social-btn {
+  color: #728391;
+  padding-top: 25px;
+  padding-bottom: 51px;
+}
+.fb-icon {
+  margin-right: 20px;
+}
+.bottom-text {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: -0.14px;
+  color: #000000;
+}
+.bottom-text span {
+  font: normal normal normal 14px/24px Open Sans;
+  letter-spacing: -0.14px;
+  color: #0062ff;
+}
